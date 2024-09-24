@@ -7,3 +7,5 @@ def generate_numbers_file(filename, num_numbers, min_value, max_value):
             number = random.randint(min_value, max_value)
             f.write(f"{number}\n")
     print(f"File '{filename}' with {num_numbers} random numbers generated.")
+
+print(generate_numbers_file("numberfile.txt", 1000, 0, 1000))
