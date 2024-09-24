@@ -20,6 +20,7 @@ def run_io_tasks():
     files = {
         "file_0.txt": "https://raw.githubusercontent.com/Julie-lou/ThreadingMultiprocessingAsyncio/refs/heads/main/file0.txt",
         "file_1.txt": "https://raw.githubusercontent.com/Julie-lou/ThreadingMultiprocessingAsyncio/refs/heads/main/file1.txt",
+        "file_2.txt": "https://raw.githubusercontent.com/Julie-lou/ThreadingMultiprocessingAsyncio/refs/heads/main/file2.txt",
     }
     
     threads = []
